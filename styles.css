@@ -35,10 +35,10 @@ h3 {
 p {
   margin: 10px 0;
   background-color: #ffefaf;
+  border-radius: 4px;
 }
 ol {
   background-color: #ffffff;
-  padding: 15px 25px;
   border-radius: 8px;
 }
 
