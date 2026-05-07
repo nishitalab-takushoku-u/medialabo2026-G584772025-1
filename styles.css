@@ -60,3 +60,18 @@ h2 + ol {
   background-color: white;
   border-radius: 8px;
 }
+p, ol {
+  margin: 10px auto;
+  padding: 15px;
+  width: 80%;
+  border-radius: 8px;
+}
+
+p {
+  background-color: #ffefaf;
+}
+
+ol {
+  background-color: #ffffff;
+  text-align: left;
+}
