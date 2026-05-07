@@ -5,12 +5,12 @@ body {
 }
 
 h2 {
-  text-align: center;
+    text-align: center;
   color: #333;
 }
 
 ul {
-  list-style: none;
+    list-style: none;
   padding: 20px;
   margin: 20px auto;
   max-width: 500px;
