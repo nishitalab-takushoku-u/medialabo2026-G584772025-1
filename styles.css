@@ -42,7 +42,7 @@ h3 {
 }
 
 p {
-  width: 80%;
+  width: 90%;
   margin: 20px auto;
   padding: 18px 22px;
   background-color: #ffefaf;
@@ -52,7 +52,7 @@ p {
 }
 
 ol {
-  width: 80%;
+  width: 90%;
   margin: 20px auto;
   padding: 20px 35px;
   background-color: #ffffff;
@@ -89,7 +89,7 @@ section {
 
   p,
   ol {
-    width: 95%;
+    width: 90%;
     padding: 15px;
   }
 
