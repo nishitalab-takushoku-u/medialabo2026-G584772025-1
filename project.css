@@ -1,6 +1,10 @@
 body {
   font-family: Arial, sans-serif;
   background-image:url(https://divnil.com/wallpaper/iphone5/img/app/e/2/e2bd76bdafddc06d55fb718147ed8a21--wallpapers-ipad-iphone--wallpaper_5004dcac87a1e698bbbe8f99df26b67c_raw.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   padding: 20px;
 }
 
@@ -18,6 +22,7 @@ ul {
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
+
 li {
   padding: 10px 0;
   border-bottom: 1px solid #eee;
