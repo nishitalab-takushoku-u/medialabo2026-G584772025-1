@@ -42,6 +42,7 @@ h3 {
 }
 
 p {
+  font-size: 14px; /* 文字の大きさを小さい方に揃える指定を追加 */
   width: 90%;
   margin: 20px auto;
   padding: 18px 22px;
