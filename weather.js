@@ -14,8 +14,59 @@ function print(data) {
 
 // 課題5-1 の関数 printDom() はここに記述すること
 function printDom(data) {
+  let d = document.createElement('div');
+  d.setAttribute('id', 'result')
+  let b = document.querySelector('body');
+  b.insertAdjacentElement('beforeend', d);
+  
+  let ul = document.createElement('ul');
+  d.insertAdjacentElement('beforeend', ul);
 
+  let li1 = document.createElement('li');
+  ul.insertAdjacentElement('beforeend', li1);
+  li1.textContent = '緯度：' + data.coord.lat;
+
+  let li2 = document.createElement('li');
+  ul.insertAdjacentElement('beforeend', li2);
+  li2.textContent = '経度：' + data.coord.lon;
+
+  let li3 = document.createElement('li');
+  ul.insertAdjacentElement('beforeend', li3);
+  li3.textContent = '天気：' + data.weather[0].description;
+
+  let img1 = document.createElement('img');
+  ul.insertAdjacentElement('beforeend', img1);
+  img1.src = 'https://openweathermap.org/img/wn/' + data.weather[0].icon + '@2x.png';
+
+  let li4 = document.createElement('li');
+  ul.insertAdjacentElement('beforeend', li4);
+  li4.textContent = '気温：' + data.main.temp + '℃';
+
+  let li5 = document.createElement('li');
+  ul.insertAdjacentElement('beforeend', li5);
+  li5.textContent = '最高気温：' + data.main.temp_max + '℃';
+
+  let li6 = document.createElement('li');
+  ul.insertAdjacentElement('beforeend', li6);
+  li6.textContent = '最低気温：' + data.main.temp_min + '℃';
+
+  let li7 = document.createElement('li');
+  ul.insertAdjacentElement('beforeend', li7);
+  li7.textContent = '湿度：' + data.main.humidity + '％';
+
+  let li8 = document.createElement('li');
+  ul.insertAdjacentElement('beforeend', li8);
+  li8.textContent = '風向：' + data.wind.deg;
+
+  let li9 = document.createElement('li');
+  ul.insertAdjacentElement('beforeend', li9);
+  li9.textContent = '風速：' + data.wind.speed + 'm/s';
+
+  let li10 = document.createElement('li');
+  ul.insertAdjacentElement('beforeend', li10);
+  li10.textContent = '都市名：' + data.name;
 }
+
 
 // 課題6-1 のイベントハンドラ登録処理は以下に記述
 

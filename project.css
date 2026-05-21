@@ -36,15 +36,9 @@ li:last-child {
 ul img:first-of-type {
   display: block;
   margin: 15px auto;
-  width: 80px;
+  width: 150px;
 }
 
-ul img:last-of-type {
-  display: block;
-  width: 100%;
-  border-radius: 10px;
-  margin-top: 15px;
-}
 
 li:nth-child(6){
   color: #e53935;
